@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:control="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView"
+    x:Class="kinnect.Account"
+    Title="Account" 
+    Icon="ic_account_circle.png">
+
+
+    <StackLayout x:Name = "last" Orientation="Horizontal"  >
+            <StackLayout x:Name = "hoho" VerticalOptions="Center" HorizontalOptions="Center" Orientation="Horizontal">
+            <Frame OutlineColor="Black" HasShadow="true" BackgroundColor="White" Padding="10" Margin="10" WidthRequest="280" >
+                  <ScrollView Orientation="Vertical" >
+        <Grid ColumnSpacing="0" RowSpacing="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />            
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
+                         
+            </Grid.RowDefinitions>
+ 
+        <StackLayout>
+        <Image Source="LoginIcon.jpg" Aspect="AspectFill"/>
+        </StackLayout>
+ 
+     
+        <Grid Grid.Row="1" ColumnSpacing="0" RowSpacing="-5" BackgroundColor="rgb(44, 99, 133)" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                 </Grid.ColumnDefinitions>
+         <StackLayout>
+                    <Label HorizontalTextAlignment="Center" TextColor="White" Text="%"/>
+         </StackLayout>
+         <StackLayout Grid.Column="1">
+                    <Label HorizontalTextAlignment="Center" TextColor="White" FontSize="11" Text="Deanne Bailson" />
+                                    <Label HorizontalTextAlignment="Center" FontSize="11" TextColor="White" Text="Senior Pricing Actuary"/>
+         </StackLayout>
+             </Grid>
+ 
+        
+            <Grid Grid.Row="2" ColumnSpacing="0" RowSpacing="0" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                 </Grid.ColumnDefinitions>
+         <StackLayout>
+                    <Label HorizontalTextAlignment="Center" Text="Location"/>
+         </StackLayout>
+         <StackLayout Grid.Column="1">
+                    <Label HorizontalTextAlignment="Center" Text="Melbourne, Australia" />
+         </StackLayout>
+             </Grid>
+
+
+
+            <Grid Grid.Row="3" ColumnSpacing="0" RowSpacing="0" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                 </Grid.ColumnDefinitions>
+         <StackLayout>
+                    <Label HorizontalTextAlignment="Center" Text="Industry"/>
+         </StackLayout>
+         <StackLayout Grid.Column="1">
+                    <Label HorizontalTextAlignment="Center" Text="General Insurance" />
+         </StackLayout>
+             </Grid>
+
+
+
+            <Grid Grid.Row="4" ColumnSpacing="0" RowSpacing="0" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                 </Grid.ColumnDefinitions>
+         <StackLayout>
+                    <Label HorizontalTextAlignment="Center" Text="Focus Area"/>
+         </StackLayout>
+         <StackLayout Grid.Column="1">
+                    <Label HorizontalTextAlignment="Center" Text="Capital" />
+         </StackLayout>
+             </Grid>
+
+                        
+
+            <Grid Grid.Row="5" ColumnSpacing="0" RowSpacing="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                 </Grid.ColumnDefinitions>
+         <StackLayout>
+                    <Label HorizontalTextAlignment="Center" Text="Organisation"/>
+         </StackLayout>
+         <StackLayout Grid.Column="1">
+                    <Label HorizontalTextAlignment="Center" Text="Corporate" />
+         </StackLayout>
+             </Grid>
+
+
+            <Grid Grid.Row="6" ColumnSpacing="0" RowSpacing="0" 
+                            >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                 </Grid.ColumnDefinitions>
+         <StackLayout>
+                    <Label HorizontalTextAlignment="Center" Text="Currently works in"/>
+         </StackLayout>
+         <StackLayout Grid.Column="1">
+                    <Label HorizontalTextAlignment="Center" Text="Westpac" />
+         </StackLayout>
+             </Grid>
+
+
+
+            <Grid Grid.Row="7" ColumnSpacing="0" RowSpacing="0" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                 </Grid.ColumnDefinitions>
+         <StackLayout>
+                    <Label HorizontalTextAlignment="Center" Text="Have worked in"/>
+         </StackLayout>
+         <StackLayout Grid.Column="1">
+                    <Label HorizontalTextAlignment="Center" Text="Australia, US" />
+         </StackLayout>
+             </Grid>
+
+
+            <Grid Grid.Row="8" ColumnSpacing="0" RowSpacing="0" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                 </Grid.ColumnDefinitions>
+         <StackLayout>
+                    <Label HorizontalTextAlignment="Center" Text="Professional Interests"/>
+         </StackLayout>
+         <StackLayout Grid.Column="1">
+                    <Label HorizontalTextAlignment="Center" Text="Market Risk, Operational Risk" />
+         </StackLayout>
+             </Grid>
+
+                     
+           <Button Grid.Row="10" Text="Follow" Margin="20" VerticalOptions="End" />
+ 
+        </Grid>
+    </ScrollView>
+    </Frame>
+            </StackLayout>
+        <StackLayout x:Name = "bl" VerticalOptions="Center" HorizontalOptions="Center" Orientation="Horizontal" >
+            <Frame OutlineColor="Black" HasShadow="true" BackgroundColor="White" Padding="10" Margin="10" WidthRequest="280" >
+                  <ScrollView Orientation="Vertical" >
+        <Grid ColumnSpacing="0" RowSpacing="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />            
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
+                         
+            </Grid.RowDefinitions>
+ 
+        
+        <Image Source="icon.png" Aspect="AspectFill"/>
+
+ 
+     
+        <Grid Grid.Row="1" ColumnSpacing="0" RowSpacing="-5" BackgroundColor="rgb(44, 99, 133)" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                 </Grid.ColumnDefinitions>
+         <StackLayout>
+                    <Label HorizontalTextAlignment="Center" TextColor="White" Text="%"/>
+         </StackLayout>
+         <StackLayout Grid.Column="1">
+                    <Label HorizontalTextAlignment="Center" TextColor="White" FontSize="11" Text="Deanne Bailson" />
+                                    <Label HorizontalTextAlignment="Center" FontSize="11" TextColor="White" Text="Senior Pricing Actuary"/>
+         </StackLayout>
+             </Grid>
+ 
+        
+            <Grid Grid.Row="2" ColumnSpacing="0" RowSpacing="0" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                 </Grid.ColumnDefinitions>
+         <StackLayout>
+                    <Label HorizontalTextAlignment="Center" Text="Location"/>
+         </StackLayout>
+         <StackLayout Grid.Column="1">
+                    <Label HorizontalTextAlignment="Center" Text="Melbourne, Australia" />
+         </StackLayout>
+             </Grid>
+
+
+
+            <Grid Grid.Row="3" ColumnSpacing="0" RowSpacing="0" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                 </Grid.ColumnDefinitions>
+         <StackLayout>
+                    <Label HorizontalTextAlignment="Center" Text="Industry"/>
+         </StackLayout>
+         <StackLayout Grid.Column="1">
+                    <Label HorizontalTextAlignment="Center" Text="General Insurance" />
+         </StackLayout>
+             </Grid>
+
+
+
+            <Grid Grid.Row="4" ColumnSpacing="0" RowSpacing="0" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                 </Grid.ColumnDefinitions>
+         <StackLayout>
+                    <Label HorizontalTextAlignment="Center" Text="Focus Area"/>
+         </StackLayout>
+         <StackLayout Grid.Column="1">
+                    <Label HorizontalTextAlignment="Center" Text="Capital" />
+         </StackLayout>
+             </Grid>
+
+                        
+
+            <Grid Grid.Row="5" ColumnSpacing="0" RowSpacing="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                 </Grid.ColumnDefinitions>
+         <StackLayout>
+                    <Label HorizontalTextAlignment="Center" Text="Organisation"/>
+         </StackLayout>
+         <StackLayout Grid.Column="1">
+                    <Label HorizontalTextAlignment="Center" Text="Corporate" />
+         </StackLayout>
+             </Grid>
+
+
+            <Grid Grid.Row="6" ColumnSpacing="0" RowSpacing="0" 
+                            >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                 </Grid.ColumnDefinitions>
+         <StackLayout>
+                    <Label HorizontalTextAlignment="Center" Text="Currently works in"/>
+         </StackLayout>
+         <StackLayout Grid.Column="1">
+                    <Label HorizontalTextAlignment="Center" Text="Westpac" />
+         </StackLayout>
+             </Grid>
+
+
+
+            <Grid Grid.Row="7" ColumnSpacing="0" RowSpacing="0" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                 </Grid.ColumnDefinitions>
+         <StackLayout>
+                    <Label HorizontalTextAlignment="Center" Text="Have worked in"/>
+         </StackLayout>
+         <StackLayout Grid.Column="1">
+                    <Label HorizontalTextAlignment="Center" Text="Australia, US" />
+         </StackLayout>
+             </Grid>
+
+
+            <Grid Grid.Row="8" ColumnSpacing="0" RowSpacing="0" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                 </Grid.ColumnDefinitions>
+         <StackLayout>
+                    <Label HorizontalTextAlignment="Center" Text="Professional Interests"/>
+         </StackLayout>
+         <StackLayout Grid.Column="1">
+                    <Label HorizontalTextAlignment="Center" Text="Market Risk, Operational Risk" />
+         </StackLayout>
+             </Grid>
+
+                     
+           <Button Grid.Row="10" Text="Follow" Margin="20" VerticalOptions="End" />
+ 
+        </Grid>
+    </ScrollView>
+    </Frame>
+            </StackLayout>
+                  <StackLayout x:Name = "kl" VerticalOptions="Center" HorizontalOptions="Center" Orientation="Horizontal" >
+            <Frame OutlineColor="Black" HasShadow="true" BackgroundColor="White" Padding="10" Margin="10" WidthRequest="280">
+                  <ScrollView Orientation="Vertical" >
+        <Grid ColumnSpacing="0" RowSpacing="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />            
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
+                <RowDefinition Height="AUTO" />
+                         
+            </Grid.RowDefinitions>
+ 
+        
+        <Image Source="icon.png" Aspect="AspectFill"/>
+
+ 
+     
+        <Grid Grid.Row="1" ColumnSpacing="0" RowSpacing="-5" BackgroundColor="rgb(44, 99, 133)" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                 </Grid.ColumnDefinitions>
+         <StackLayout>
+                    <Label HorizontalTextAlignment="Center" TextColor="White" Text="%"/>
+         </StackLayout>
+         <StackLayout Grid.Column="1">
+                    <Label HorizontalTextAlignment="Center" TextColor="White" FontSize="11" Text="Deanne Bailson" />
+                                    <Label HorizontalTextAlignment="Center" FontSize="11" TextColor="White" Text="Senior Pricing Actuary"/>
+         </StackLayout>
+             </Grid>
+ 
+        
+            <Grid Grid.Row="2" ColumnSpacing="0" RowSpacing="0" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                 </Grid.ColumnDefinitions>
+         <StackLayout>
+                    <Label HorizontalTextAlignment="Center" Text="Location"/>
+         </StackLayout>
+         <StackLayout Grid.Column="1">
+                    <Label HorizontalTextAlignment="Center" Text="Melbourne, Australia" />
+         </StackLayout>
+             </Grid>
+
+
+
+            <Grid Grid.Row="3" ColumnSpacing="0" RowSpacing="0" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                 </Grid.ColumnDefinitions>
+         <StackLayout>
+                    <Label HorizontalTextAlignment="Center" Text="Industry"/>
+         </StackLayout>
+         <StackLayout Grid.Column="1">
+                    <Label HorizontalTextAlignment="Center" Text="General Insurance" />
+         </StackLayout>
+             </Grid>
+
+
+
+            <Grid Grid.Row="4" ColumnSpacing="0" RowSpacing="0" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                 </Grid.ColumnDefinitions>
+         <StackLayout>
+                    <Label HorizontalTextAlignment="Center" Text="Focus Area"/>
+         </StackLayout>
+         <StackLayout Grid.Column="1">
+                    <Label HorizontalTextAlignment="Center" Text="Capital" />
+         </StackLayout>
+             </Grid>
+
+                        
+
+            <Grid Grid.Row="5" ColumnSpacing="0" RowSpacing="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                 </Grid.ColumnDefinitions>
+         <StackLayout>
+                    <Label HorizontalTextAlignment="Center" Text="Organisation"/>
+         </StackLayout>
+         <StackLayout Grid.Column="1">
+                    <Label HorizontalTextAlignment="Center" Text="Corporate" />
+         </StackLayout>
+             </Grid>
+
+
+            <Grid Grid.Row="6" ColumnSpacing="0" RowSpacing="0" 
+                            >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                 </Grid.ColumnDefinitions>
+         <StackLayout>
+                    <Label HorizontalTextAlignment="Center" Text="Currently works in"/>
+         </StackLayout>
+         <StackLayout Grid.Column="1">
+                    <Label HorizontalTextAlignment="Center" Text="Westpac" />
+         </StackLayout>
+             </Grid>
+
+
+
+            <Grid Grid.Row="7" ColumnSpacing="0" RowSpacing="0" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                 </Grid.ColumnDefinitions>
+         <StackLayout>
+                    <Label HorizontalTextAlignment="Center" Text="Have worked in"/>
+         </StackLayout>
+         <StackLayout Grid.Column="1">
+                    <Label HorizontalTextAlignment="Center" Text="Australia, US" />
+         </StackLayout>
+             </Grid>
+
+
+            <Grid Grid.Row="8" ColumnSpacing="0" RowSpacing="0" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                 </Grid.ColumnDefinitions>
+         <StackLayout>
+                    <Label HorizontalTextAlignment="Center" Text="Professional Interests"/>
+         </StackLayout>
+         <StackLayout Grid.Column="1">
+                    <Label HorizontalTextAlignment="Center" Text="Market Risk, Operational Risk" />
+         </StackLayout>
+             </Grid>
+
+                     
+           <Button Grid.Row="10" Text="Follow" Margin="20" VerticalOptions="End" />
+ 
+        </Grid>
+    </ScrollView>
+    </Frame>
+            </StackLayout>
+                          
+      </StackLayout>
+    </ContentPage>
+
+    
+
+
+    
+
+

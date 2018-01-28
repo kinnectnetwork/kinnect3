@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:kinnect" 
+    x:Class="kinnect.kinnectPage"
+    Title="kinnect"
+    >
+    <TabbedPage.ToolbarItems>
+    <ToolbarItem Name="Icon" Priority="-1" Order="Primary" Clicked="Mode_Clicked"/><!-- Negative goes on the left side -->
+    <ToolbarItem Name="Filter" Priority="1" Order="Primary" Clicked="FilterButton"></ToolbarItem><!-- Positive priority goes on the right side -->
+</TabbedPage.ToolbarItems>
+
+
+
+
+  
+	<local:Networks></local:Networks>
+
+   <local:Search></local:Search>
+
+    <local:Chats></local:Chats>
+ 
+    <local:Account></local:Account>
+
+   
+
+
+
+
+
+
+
+ </TabbedPage>
+    
+    

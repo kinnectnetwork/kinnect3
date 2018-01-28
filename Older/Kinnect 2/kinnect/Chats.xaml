@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:kinnect; assembly=kinnect"
+    x:Class="kinnect.Chats"
+    Title="Chats" 
+    Icon="ic_chat.png">
+        <ContentPage.Content>
+            <ResourceDictionary>
+               <DataTemplate x:Key="FromTemplate">
+               <ViewCell>
+               <ViewCell.View>
+                        <StackLayout Orientation="Horizontal" Spacing="10" >
+                            <Image Source="{Binding imageUrl}" WidthRequest="75" HeightRequest="75"/>
+                        <StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                          <Label Text="{Binding FromUser}" FontSize="Medium" TextColor="Purple" /> 
+                              <Label Text="To"  FontSize="Medium"/>
+                                 <Label Text="{Binding ToUser}" FontSize="Medium" TextColor="Purple" />     
+                                        
+                                        
+
+                                </StackLayout>
+                                <Label Text="{Binding DateSent}" FontSize="Medium"/>
+                                <Label Text="{Binding Message}" FontSize="Medium"/>                           
+                            </StackLayout>
+
+
+
+
+                        </StackLayout>
+
+
+
+                    </ViewCell.View>
+                </ViewCell>
+
+            </DataTemplate>
+            <local:ChatDataTemplateSelector x:Key="ChatDataTemplateSelector" FromTemplate="{StaticResource FromTemplate}" ToTemplate="{StaticResource ToTemplate}"/>
+
+
+
+            
+               <DataTemplate x:Key="ToTemplate">
+
+
+            </DataTemplate>
+
+
+            </ResourceDictionary>
+        </ContentPage.Content>
+        <ContentPage.Content>
+        <StackLayout Spacing="10">
+        <Label Text="Xamarin.Forms.Chats" FontSize="30"/>
+            <ListView x:Name ="listMessages" HasUnevenRows="true" ItemTemplate="{StaticResource ChatDataTemplateSelector}"/>
+        </StackLayout>
+
+
+
+
+    </ContentPage.Content>
+    </ContentPage>
+
