@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="kinnect.FilterPage">
+	 <ContentPage.Content>
+        <StackLayout Padding="20">
+        <Slider x:Name = "DistanceSlider"
+                Minimum="0"
+                Maximum="100"
+                ValueChanged="DistanceSlider_ValueChanged"/>
+            <Label x:Name="txtResult" FontSize="20" Text="{Binding Value, Source={x:Reference DistanceSlider}}"/>
+        
+
+           
+            
+        <Label x:Name="Lb1_Industry" Text="Industry" />
+        <Entry x:Name="Entry_Industry" Placeholder="No Preferences"/>
+        <Label x:Name="Lb1_Focus_Area" Text="Focus Area"/>
+        <Entry x:Name="Entry_Focus_Area" Placeholder="No Preferences"/>
+        <Label x:Name="Lb1_Organisation" Text="Organisation"/>
+        <Entry x:Name="Entry_Organisation" Placeholder="No Preferences"/>
+        <Label x:Name="Lb1_Have_Worked_In" Text="Have Worked In"/>
+        <Entry x:Name="Entry_Have_Worked_In" Placeholder="No Preferences"/>
+        <Label x:Name="Lb1_Professional_Interests" Text="Professional Interests"/>
+        <Entry x:Name="Entry_Professional_Interests" Placeholder="No Preferences"/>   
+       
+
+
+        </StackLayout>
+
+
+
+        
+    </ContentPage.Content>
+</ContentPage> 
